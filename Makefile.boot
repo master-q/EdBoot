@@ -14,7 +14,7 @@ SRCS= ${SOURCES}
 .if !make(depend)
 SRCS+= vers.c
 .endif
-SRCS+= carg_parser.c global.c io.c main.c main_loop.c regex.c signal.c buffer.c
+SRCS+= carg_parser.c global.c regex.c signal.c buffer.c io.c main.c main_loop.c
 
 PIE_CFLAGS=
 PIE_AFLAGS=
